@@ -12,6 +12,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.cvsilva31.nebulous",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -27,6 +28,8 @@
     },
     "plugins": [
       "expo-router",
+      "expo-camera",
+      "expo-image-picker",
       [
         "expo-splash-screen",
         {
@@ -43,6 +46,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e9a24706-8815-489c-863b-a0036f314b46"
+      }
     }
   }
 }
